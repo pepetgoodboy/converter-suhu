@@ -1,0 +1,94 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  font-size: 8px;
+}
+
+.section-container {
+  background-color: #f9f7f7;
+  width: 35%;
+  padding: 10px;
+}
+
+.section-first {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.section-first > h2 {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.section-input {
+  font-size: 12px;
+}
+
+.section-input > input {
+  width: 48%;
+  height: 30px;
+}
+
+.section-button {
+  display: flex;
+  margin-top: 4px;
+  gap: 8px;
+}
+
+button {
+  font-size: 10px;
+}
+
+.section-second {
+  font-size: 12px;
+}
+
+.result {
+  background-color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid slategray;
+  width: 50%;
+  height: 35px;
+}
+
+.section-third {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+#formula {
+  margin-top: -6px;
+}
+
+.section-fourth {
+  font-size: 12px;
+  margin-top: -10px;
+}
+
+.description {
+  color: purple;
+}
+
+.symbol-suhu {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.number {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+footer {
+  font-size: 10px;
+}

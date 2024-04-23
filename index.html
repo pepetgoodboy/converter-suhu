@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Converter Suhu</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Converter Suhu</h1>
+    </header>
+    <section class="section-container">
+      <section class="section-first">
+        <h2>
+          Masukkan suhu derajat Celsius (&deg;C) ke kotak dibawah, lalu klik
+          tombol Konversi untuk mendapatkan hasil konversi dalam bentuk
+          Fahrenheit (&deg;F)
+        </h2>
+        <div class="section-input">
+          <label for="celsius">Masukkan Suhu Celsius (&deg;C):</label><br />
+          <input id="celsius" type="number" required />
+        </div>
+        <div class="section-button">
+          <button onclick="konversi()">Konversi</button>
+          <button onclick="reset()">Reset</button>
+          <button onclick="reverse()">Reverse</button>
+        </div>
+      </section>
+      <section class="section-second">
+        <label>Fahrenheit (&deg;F):</label><br />
+        <p id="fahrenheit" class="result"></p>
+      </section>
+      <section class="section-third">
+        <label>Cara Kalkulasi:</label><br />
+        <p id="formula" class="result"></p>
+      </section>
+      <section class="section-fourth">
+        <p class="description">Fahrenheit ke Celsius</p>
+        <h3>Cara Konversi dari Celsius (&deg;C) ke Fahrenheit (&deg;F)</h3>
+        <hr />
+        <p>
+          Suhu <span class="symbol-suhu">S</span> dalam derajat Fahrenheit
+          (&deg;F) sama dengan suhu <span class="symbol-suhu">S</span> dalam
+          derajat <br />
+          Celsius (&deg;C) kali <span class="number">9/5</span> tambah
+          <span class="number">32</span>.
+        </p>
+        <p>
+          <span class="symbol-suhu">S</span>(&deg;F) = (<span
+            class="symbol-suhu"
+            >S</span
+          >(&deg;C) x <span class="number">9/5</span>) +
+          <span class="number">32</span><br /><br />
+          atau <br /><br />
+          <span class="symbol-suhu">S</span>(&deg;F) = (<span
+            class="symbol-suhu"
+            >S</span
+          >(&deg;C) x <span class="number">1.8</span>) +
+          <span class="number">32</span>
+        </p>
+      </section>
+    </section>
+    <footer>
+      <p>&copy; IqbalMudzaki</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
